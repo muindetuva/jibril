@@ -1,0 +1,46 @@
+body {
+    background-color: #f2f4f6;
+}
+
+nav {
+    /* background-color: red; */
+    padding: 20px;
+    display: flex;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #919395;
+    margin: 10px 30px;
+    border-bottom: 2px solid transparent;
+    transition: all .3s linear;
+    cursor: default;
+}
+
+nav a:hover {
+    color: #0c90e4;
+    border-bottom: 2px solid #0c90e4;
+}
+
+#logo {
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn {
+  border: none;
+  background-color: #0c90e4;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav .btn:hover {
+    color: white;
+    border: none;
+}
