@@ -1,33 +1,35 @@
 body {
-    background-color: #f2f4f6;
+  background-color: #f2f4f6;
+ font-family: "Hanken Grotesk", sans-serif;
+ 
 }
 
 nav {
-    /* background-color: red; */
-    padding: 20px;
-    display: flex;
+  /* background-color: red; */
+  padding: 20px;
+  display: flex;
 }
 
 nav a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #919395;
-    margin: 10px 30px;
-    border-bottom: 2px solid transparent;
-    transition: all .3s linear;
-    cursor: default;
+  font-size: 18px;
+  text-decoration: none;
+  color: #919395;
+  margin: 10px 30px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s linear;
+  cursor: default;
 }
 
 nav a:hover {
-    color: #0c90e4;
-    border-bottom: 2px solid #0c90e4;
+  color: #0c90e4;
+  border-bottom: 2px solid #0c90e4;
 }
 
 #logo {
-    color: black;
-    border: none;
-    font-size: 20px;
-    font-weight: bolder;
+  color: black;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .btn {
@@ -41,6 +43,119 @@ nav a:hover {
 }
 
 nav .btn:hover {
-    color: white;
+  color: white;
+  border: none;
+}
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.hero-section div {
+  flex: 1;
+}
+
+.hero-info {
+  padding: 40px;
+}
+
+.hero-info img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.hero-info h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hero-info p {
+    color: #919395;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.hero-info button {
+    background-color: #0c90e4;
     border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-img div {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: white;
+    line-height: 1.6;
+}
+
+.hero-img div p:first-child {
+    font-size: 24px;
+}
+
+/* Projects Section */
+.projects-section {
+    margin: 0 40px;
+    margin-bottom: 50px;
+}
+.projects-section h2 {
+font-weight: bold;
+font-size: 30px;
+}
+
+.projects-section > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+}
+
+.project-card {
+    flex: 1;
+    padding: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.project-card p {
+    color: #919395;
+}
+
+
+/* Footer  */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
 }

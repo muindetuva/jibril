@@ -1,70 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/stylesheets/reset.css">
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="assets/stylesheets/reset.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Jibril - Personal Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="/" id="logo">Jibril</a>
+      <nav>
+        <a href="/" id="logo">Jibril</a>
 
-            <a href="#" style="margin-left: auto;">Home</a>
-            <a href="#">Projects</a>
-            <a href="#" style="margin-right: auto;">Blog</a>
+        <a href="#" style="margin-left: auto">Home</a>
+        <a href="#">Projects</a>
+        <a href="#" style="margin-right: auto">Blog</a>
 
-            <a href="#" class="btn">Let's Talk</a>
-        </nav>
+        <a href="#" class="btn">Let's Talk</a>
+      </nav>
     </header>
     <main>
-        <!-- Hero Section -->
-         <section>
-            <h1>Hello, I'm Jibril <br/> A Frontend Developer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nisi perspiciatis unde maiores reiciendis consequuntur animi adipisci culpa enim, aliquam possimus modi illo laboriosam! Deserunt sed ipsum quam error hic?</p>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-info">
+          <img src="assets/images/avatar.png" alt="Jibril's avatar" />
+          <h1>
+            Hello, I'm Jibril <br />
+            A Frontend Developer
+          </h1>
+          <p>
+            Building cool websites and webapps with 5 years of experience as a
+            frontend developer
+          </p>
+          <button>View My Work</button>
+        </div>
 
-            <button>View My Work</button>
+        <div class="hero-img">
+          <img src="assets/images/laptop.jpg" alt="Laptop on a desk" />
 
-            <img width="300" src="assets/images/laptop.jpg" alt="Laptop on a desk">
+          <div>
             <p>UI design isn't about design</p>
             <p>It's to solvinge a whole product Life problem</p>
+          </div>
+        </div>
+      </section>
 
-         </section>
+      <!-- Projects Section -->
+      <section class="projects-section">
+        <div>
+          <h2>My Projects</h2>
+          <a href="#">View More -></a>
+        </div>
 
-         <!-- Projects Section -->
-          <section id="projects-section">
-            <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="assets/images/ngo.jpg" alt="Amnesty Placard" />
+            <h3>Amnesty Website</h3>
+            <p>
+              An info website on what Amnesty does and how people can contribute
+            </p>
+          </div>
 
-            <a href="#">View More -></a>
+          <div class="project-card">
+            <img
+              src="assets/images/apartment.jpg"
+              alt="A picture of a high rise apartment"
+            />
+            <h3>Rezz</h3>
+            <p>A website to help students book and rent hostels</p>
+          </div>
 
-            <div>
-                <img src="assets/images/ngo.jpg" alt="Amnesty Placard">
-                <h3>Amnesty Website</h3>
-                <p>An info website on what Amnesty does and how people can contribute</p>
-            </div>
-            
-            <div>
-                <img src="assets/images/apartment.jpg" alt="A picture of a high rise apartment">
-                <h3>Rezz</h3>
-                <p>A website to help students book and rent hostels</p>
-            </div>
-            
-            <div>
-                <img src="assets/images/restaurant.jpg" alt="Picture inside a restaurant">
-                <h3>Disheey</h3>
-                <p>A restaurant management system for processing orders and payments</p>
-            </div>
-          </section>
+          <div class="project-card">
+            <img
+              src="assets/images/restaurant.jpg"
+              alt="Picture inside a restaurant"
+            />
+            <h3>Disheey</h3>
+            <p>
+              A restaurant management system for processing orders and payments
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>Website built by Jibril</p>
-        <a href="">Github</a>
-        <a href="">LinkedIn</a>
+      <p>Website built by Jibril</p>
+      <a href="">Github</a>
+      <a href="">LinkedIn</a>
     </footer>
-</body>
+  </body>
 </html>
